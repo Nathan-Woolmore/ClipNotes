@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		433F8C8C2BBE91DC0028C265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433F8C8B2BBE91DC0028C265 /* Assets.xcassets */; };
 		433F8C8F2BBE91DC0028C265 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433F8C8E2BBE91DC0028C265 /* Preview Assets.xcassets */; };
-		433F8C972BBE92350028C265 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8C962BBE92350028C265 /* ContentView.swift */; };
-		433F8C992BBE92400028C265 /* EditClipboardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8C982BBE92400028C265 /* EditClipboardItemView.swift */; };
-		433F8C9B2BBE92460028C265 /* ClipNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8C9A2BBE92460028C265 /* ClipNotesApp.swift */; };
-		433F8C9D2BBE92580028C265 /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8C9C2BBE92580028C265 /* ClipboardItem.swift */; };
-		433F8C9F2BBE925B0028C265 /* BlueButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8C9E2BBE925B0028C265 /* BlueButtonStyle.swift */; };
 		433F8CA12BBFA24D0028C265 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8CA02BBFA24D0028C265 /* SearchBarView.swift */; };
 		433F8CA32BBFA3630028C265 /* ClipboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8CA22BBFA3630028C265 /* ClipboardManager.swift */; };
 		433F8CA52BBFA3820028C265 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8CA42BBFA3820028C265 /* DataManager.swift */; };
 		433F8CA72BBFAAC30028C265 /* ClipboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8CA62BBFAAC30028C265 /* ClipboardMonitor.swift */; };
+		433F8CAB2BBFBB670028C265 /* BlueButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8CAA2BBFBB670028C265 /* BlueButtonStyle.swift */; };
+		433F8CAD2BBFBB710028C265 /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8CAC2BBFBB710028C265 /* ClipboardItem.swift */; };
+		433F8CAF2BBFBB7D0028C265 /* ClipNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8CAE2BBFBB7D0028C265 /* ClipNotesApp.swift */; };
+		433F8CB12BBFBB820028C265 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8CB02BBFBB820028C265 /* ContentView.swift */; };
+		433F8CB32BBFBB880028C265 /* EditClipboardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433F8CB22BBFBB880028C265 /* EditClipboardItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,15 +25,15 @@
 		433F8C8B2BBE91DC0028C265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		433F8C8E2BBE91DC0028C265 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		433F8C902BBE91DC0028C265 /* ClipNotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClipNotes.entitlements; sourceTree = "<group>"; };
-		433F8C962BBE92350028C265 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../PastePal/PastePal/ContentView.swift; sourceTree = "<group>"; };
-		433F8C982BBE92400028C265 /* EditClipboardItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditClipboardItemView.swift; path = ../../PastePal/PastePal/EditClipboardItemView.swift; sourceTree = "<group>"; };
-		433F8C9A2BBE92460028C265 /* ClipNotesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClipNotesApp.swift; path = ../../PastePal/PastePal/ClipNotesApp.swift; sourceTree = "<group>"; };
-		433F8C9C2BBE92580028C265 /* ClipboardItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClipboardItem.swift; path = ../../PastePal/PastePal/ClipboardItem.swift; sourceTree = "<group>"; };
-		433F8C9E2BBE925B0028C265 /* BlueButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlueButtonStyle.swift; path = ../../PastePal/PastePal/BlueButtonStyle.swift; sourceTree = "<group>"; };
 		433F8CA02BBFA24D0028C265 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		433F8CA22BBFA3630028C265 /* ClipboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardManager.swift; sourceTree = "<group>"; };
 		433F8CA42BBFA3820028C265 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		433F8CA62BBFAAC30028C265 /* ClipboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardMonitor.swift; sourceTree = "<group>"; };
+		433F8CAA2BBFBB670028C265 /* BlueButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueButtonStyle.swift; sourceTree = "<group>"; };
+		433F8CAC2BBFBB710028C265 /* ClipboardItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipboardItem.swift; sourceTree = "<group>"; };
+		433F8CAE2BBFBB7D0028C265 /* ClipNotesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClipNotesApp.swift; sourceTree = "<group>"; };
+		433F8CB02BBFBB820028C265 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		433F8CB22BBFBB880028C265 /* EditClipboardItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditClipboardItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,14 +66,14 @@
 		433F8C862BBE91DA0028C265 /* ClipNotes */ = {
 			isa = PBXGroup;
 			children = (
-				433F8C9A2BBE92460028C265 /* ClipNotesApp.swift */,
-				433F8C962BBE92350028C265 /* ContentView.swift */,
 				433F8CA62BBFAAC30028C265 /* ClipboardMonitor.swift */,
 				433F8CA22BBFA3630028C265 /* ClipboardManager.swift */,
 				433F8CA42BBFA3820028C265 /* DataManager.swift */,
-				433F8C9C2BBE92580028C265 /* ClipboardItem.swift */,
-				433F8C982BBE92400028C265 /* EditClipboardItemView.swift */,
-				433F8C9E2BBE925B0028C265 /* BlueButtonStyle.swift */,
+				433F8CAA2BBFBB670028C265 /* BlueButtonStyle.swift */,
+				433F8CAC2BBFBB710028C265 /* ClipboardItem.swift */,
+				433F8CB02BBFBB820028C265 /* ContentView.swift */,
+				433F8CB22BBFBB880028C265 /* EditClipboardItemView.swift */,
+				433F8CAE2BBFBB7D0028C265 /* ClipNotesApp.swift */,
 				433F8CA02BBFA24D0028C265 /* SearchBarView.swift */,
 				433F8C8B2BBE91DC0028C265 /* Assets.xcassets */,
 				433F8C902BBE91DC0028C265 /* ClipNotes.entitlements */,
@@ -160,15 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				433F8C972BBE92350028C265 /* ContentView.swift in Sources */,
 				433F8CA52BBFA3820028C265 /* DataManager.swift in Sources */,
-				433F8C9D2BBE92580028C265 /* ClipboardItem.swift in Sources */,
-				433F8C9F2BBE925B0028C265 /* BlueButtonStyle.swift in Sources */,
-				433F8C992BBE92400028C265 /* EditClipboardItemView.swift in Sources */,
+				433F8CB32BBFBB880028C265 /* EditClipboardItemView.swift in Sources */,
+				433F8CAF2BBFBB7D0028C265 /* ClipNotesApp.swift in Sources */,
+				433F8CB12BBFBB820028C265 /* ContentView.swift in Sources */,
 				433F8CA72BBFAAC30028C265 /* ClipboardMonitor.swift in Sources */,
+				433F8CAB2BBFBB670028C265 /* BlueButtonStyle.swift in Sources */,
 				433F8CA12BBFA24D0028C265 /* SearchBarView.swift in Sources */,
-				433F8C9B2BBE92460028C265 /* ClipNotesApp.swift in Sources */,
 				433F8CA32BBFA3630028C265 /* ClipboardManager.swift in Sources */,
+				433F8CAD2BBFBB710028C265 /* ClipboardItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

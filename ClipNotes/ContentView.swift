@@ -17,12 +17,15 @@ extension Color {
 
 struct ContentView: View {
     @Environment(\.colorScheme) var colorScheme
+    
     @State private var showStatusAlert = false
     @State private var statusMessage = ""
     @State private var clipboardItems: [ClipboardItem] = []
     @State private var lastCopiedItem: String = ""
     @State private var searchText = ""
     @State private var selectedClipboardItem: ClipboardItem?
+    @State private var isAlertPresented = false
+    
     private let clipboardMonitor = ClipboardMonitor()
     
     // Computed property to filter clipboard items based on search text
@@ -175,6 +178,9 @@ struct ContentView: View {
     
     // Clear the clipboard and remove all items
     func clearClipboard() {
+        guard !isAlertPresented else { return }
+                isAlertPresented = true
+        
         let alert = NSAlert()
         alert.messageText = "Delete all snippets"
         alert.informativeText = "Are you sure you want to clear the clipboard? this action cannot be undone."
@@ -188,6 +194,10 @@ struct ContentView: View {
             pasteboard.clearContents()
             clipboardItems.removeAll()
             saveData()
+        }
+        // Reset isAlertPresented flag, ensure UI has time to process the dismissal
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.isAlertPresented = false
         }
     }
     

@@ -26,6 +26,7 @@ struct EditClipboardItemView: View {
         VStack {
             // Text editor for editing the clipboard item content
             TextEditor(text: $editedContent)
+                .font(.system(size: 18)) // Use your desired font size
                 .padding()
 
             HStack {

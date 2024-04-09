@@ -7,8 +7,8 @@
 import SwiftUI
 
 // Constants
-let maxItemCount = 1000
-let truncatTextAfterChar = 100
+let maxItemCount = 10_000
+let truncatTextAfterChar = 300
 
 // Color extension for item text color
 extension Color {

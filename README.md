@@ -29,8 +29,8 @@ For a quick and easy setup, you can directly download the ClipNotes app through 
 
 ## Prerequisites
 
-- macOS 10.15+
-- Xcode 11.0+ (for building from source)
+- macOS 11.0+
+- Xcode 15.0+ (for building from source)
 
 ## Building From Source
 
@@ -38,13 +38,13 @@ If you prefer to build ClipNotes from source:
 
 ```bash
 git clone https://github.com/yourusername/ClipNotes.git
+```
+```bash
 cd ClipNotes
+```
+```bash
 open ClipNotes.xcodeproj
 ```
-
-### Compiling
-
-After cloning the repository and opening the project in Xcode, build the project by pressing `Cmd + B`, and run the app with `Cmd + R`. 
 
 ## Usage
 
@@ -63,3 +63,5 @@ Contributions to ClipNotes are welcome! If you have improvements or bug fixes:
 3. Commit your changes with `git commit -am 'Add some AmazingFeature'`.
 4. Push to the branch with `git push origin feature/AmazingFeature`.
 5. Open a pull request.
+
+Thanks for checking out my repo! If you like this please star the project!

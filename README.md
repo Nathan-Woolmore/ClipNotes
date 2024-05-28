@@ -56,7 +56,8 @@ Once ClipNotes is installed or running, it will automatically start saving items
 
 ## Contributing
 
-Contributions to ClipNotes are welcome! If you have improvements or bug fixes:
+Contributions to ClipNotes are welcome if you have improvements or bug fixes.
+The project is currently just a barebones clipboard editor so there is plenty of room for functionality that can be added although the interface needs to remain minimal:
 
 1. Fork the repository.
 2. Create a new branch with `git checkout -b feature/AmazingFeature`.
@@ -64,4 +65,8 @@ Contributions to ClipNotes are welcome! If you have improvements or bug fixes:
 4. Push to the branch with `git push origin feature/AmazingFeature`.
 5. Open a pull request.
 
-Thanks for checking out my repo! If you like this please star the project!
+If you do decide to fork it or use any of the code, please star the project :)
+
+## License
+
+ClipNotes is released under the [MIT License](https://opensource.org/licenses/MIT). See `LICENSE` for more information.
